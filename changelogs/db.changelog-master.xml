@@ -20,4 +20,10 @@
                  relativeToChangelogFile="true"/>
     </changeSet>
 
+    <changeSet id="4" author="sam">
+        <sqlFile path="../sql-scripts/V4__add_stock_to_products.sql"
+                 relativeToChangelogFile="true"/>
+    </changeSet>
+
+
 </databaseChangeLog>
