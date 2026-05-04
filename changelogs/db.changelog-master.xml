@@ -25,5 +25,10 @@
                  relativeToChangelogFile="true"/>
     </changeSet>
 
+    <changeSet id="5" author="sam">
+        <sqlFile path="../sql-scripts/V5__insert_sample_data.sql"
+                 relativeToChangelogFile="true"/>
+    </changeSet>
+
 
 </databaseChangeLog>
