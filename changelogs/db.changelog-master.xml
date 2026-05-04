@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.9.xsd">
+
+    <changeSet id="1" author="sam">
+        <sqlFile path="../sql-scripts/V1__create_users_table.sql"
+                 relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2" author="sam">
+        <sqlFile path="../sql-scripts/V2__add_email_column.sql"
+                 relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="3" author="sam">
+        <sqlFile path="../sql-scripts/V3__create_products_table.sql"
+                 relativeToChangelogFile="true"/>
+    </changeSet>
+
+</databaseChangeLog>
